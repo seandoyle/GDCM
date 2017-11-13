@@ -44,8 +44,8 @@ static Tag BasicApplicationLevelConfidentialityProfileAttributes[] = {
 /*    Referring Physician's Address             */ Tag(0x0008,0x0092),
 /*    Referring Physician's Telephone Numbers   */ Tag(0x0008,0x0094),
 /*    Station Name                              */ Tag(0x0008,0x1010),
-/*    Study Description                         */ Tag(0x0008,0x1030),
-/*    Series Description                        */ Tag(0x0008,0x103E),
+///*    Study Description                         */ Tag(0x0008,0x1030),
+///*    Series Description                        */ Tag(0x0008,0x103E),
 /*    Institutional Department Name             */ Tag(0x0008,0x1040),
 /*    Physician(s) of Record                    */ Tag(0x0008,0x1048),
 /*    Performing Physicians' Name               */ Tag(0x0008,0x1050),
@@ -58,7 +58,7 @@ static Tag BasicApplicationLevelConfidentialityProfileAttributes[] = {
 /*    Patient ID                                */ Tag(0x0010,0x0020),
 /*    Patient's Birth Date                      */ Tag(0x0010,0x0030),
 /*    Patient's Birth Time                      */ Tag(0x0010,0x0032),
-/*    Patient's Sex                             */ Tag(0x0010,0x0040),
+///*    Patient's Sex                             */ Tag(0x0010,0x0040),
 /*    Other Patient Ids                         */ Tag(0x0010,0x1000),
 /*    Other Patient Names                       */ Tag(0x0010,0x1001),
 /*    Patient's Age                             */ Tag(0x0010,0x1010),
@@ -82,7 +82,17 @@ static Tag BasicApplicationLevelConfidentialityProfileAttributes[] = {
 /*    Content Sequence                          */ Tag(0x0040,0xA730),
 /*    Storage Media File-set UID                */ Tag(0x0088,0x0140),
 /*    Referenced Frame of Reference UID         */ Tag(0x3006,0x0024),
-/*    Related Frame of Reference UID            */ Tag(0x3006,0x00C2)
+/*    Related Frame of Reference UID            */ Tag(0x3006,0x00C2),
+/*    Referring physician name                  */ Tag(0x0032,0x1032),
+/*    Agfa private                              */ Tag(0x0033,0x0010),
+/*    Agfa private                              */ Tag(0x0033,0x1004),
+/*    Agfa private                              */ Tag(0x0033,0x100c),
+/*    Agfa private                              */ Tag(0x0033,0x100e),
+/*    Agfa private                              */ Tag(0x0033,0x1013),
+/*    Agfa private                              */ Tag(0x0033,0x1016),
+/*    Agfa private                              */ Tag(0x0033,0x1019),
+/*    Agfa private                              */ Tag(0x0033,0x101c),
+/*    Retired Study Comments                    */ Tag(0x0032,0x4000)
 };
 
 
